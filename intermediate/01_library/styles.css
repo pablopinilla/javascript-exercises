@@ -24,9 +24,14 @@ header {
 }
 
 .newBookBtn {
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: #6699CC;
     margin-top: 36px;
     font-size: 16px;
-    padding: 10px 20px
+    padding: 10px 20px;
+    border-radius: 8px;
 }
 
 .bookCard {
@@ -45,7 +50,11 @@ header {
 
 .cardBtn {
     font-size: 16px;
-    padding: 8px 16px
+    padding: 8px 16px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: #6699CC;
 }
 
 .cardContainer {

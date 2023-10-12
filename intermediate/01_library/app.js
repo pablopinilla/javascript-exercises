@@ -45,6 +45,7 @@ function display() {
         cardContainer.appendChild(card)
         let title = document.createElement("div")
         title.textContent = `"${book.title}"`
+        title.style.fontWeight = "bold"
         card.appendChild(title)
         let author = document.createElement("div")
         author.textContent = `${book.author}`
